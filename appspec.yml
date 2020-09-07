@@ -2,7 +2,7 @@ version: 0.0
 os: linux
 files:
   - source: /index.html
-    destination: /mnt/efs/fs1
+    destination: /
 hooks:
   BeforeInstall:
     - location: scripts/install_dependencies
