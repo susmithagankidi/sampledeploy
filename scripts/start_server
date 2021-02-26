@@ -1,3 +1,4 @@
 #!/bin/bash
 service httpd start > /dev/null 2>&1
+echo testing > /dev/null 2>&1
 
